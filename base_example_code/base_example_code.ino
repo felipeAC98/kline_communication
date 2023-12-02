@@ -5,9 +5,9 @@
 
 #include "OBD9141.h"
 
-#define RX_PIN 0  // connect to transceiver Rx
-#define TX_PIN 1  // connect to transceiver Tx
-#define EN_PIN 2  //  pin will be set high (connect to EN pin of SN65HVDA100)
+#define RX_PIN 8  // connect to transceiver Rx
+#define TX_PIN 9  // connect to transceiver Tx
+#define EN_PIN 10  //  pin will be set high (connect to EN pin of SN65HVDA100)
 int RPM=0;
 AltSoftSerial altSerial;
 
